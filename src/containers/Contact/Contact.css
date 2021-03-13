@@ -54,3 +54,16 @@
     margin-top: 1rem;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 860px) {
+    .contact {
+       padding: 0 1rem;
+       flex-direction: column;
+    }
+    .mail-form {
+        padding: 2rem 0 0;
+    }
+    .contact-heading {
+        padding: 0;
+    }
+}

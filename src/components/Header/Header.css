@@ -54,3 +54,12 @@
     display: flex;
     align-items: center;
 }
+
+@media only screen and (max-width: 860px) {
+    .header-right {
+       display: none;
+    }
+    .header {
+        padding: 1rem;
+    }
+}
