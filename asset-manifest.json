@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/gauriawasthi/static/css/main.dfe8660e.chunk.css",
+    "main.css": "/gauriawasthi/static/css/main.4a278c4a.chunk.css",
     "main.js": "/gauriawasthi/static/js/main.1f57300e.chunk.js",
     "main.js.map": "/gauriawasthi/static/js/main.1f57300e.chunk.js.map",
     "runtime-main.js": "/gauriawasthi/static/js/runtime-main.8b17aba1.js",
@@ -8,7 +8,7 @@
     "static/js/2.efc8b30b.chunk.js": "/gauriawasthi/static/js/2.efc8b30b.chunk.js",
     "static/js/2.efc8b30b.chunk.js.map": "/gauriawasthi/static/js/2.efc8b30b.chunk.js.map",
     "index.html": "/gauriawasthi/index.html",
-    "static/css/main.dfe8660e.chunk.css.map": "/gauriawasthi/static/css/main.dfe8660e.chunk.css.map",
+    "static/css/main.4a278c4a.chunk.css.map": "/gauriawasthi/static/css/main.4a278c4a.chunk.css.map",
     "static/js/2.efc8b30b.chunk.js.LICENSE.txt": "/gauriawasthi/static/js/2.efc8b30b.chunk.js.LICENSE.txt",
     "static/media/insta.edb90ecc.png": "/gauriawasthi/static/media/insta.edb90ecc.png",
     "static/media/twitter.8e65601e.png": "/gauriawasthi/static/media/twitter.8e65601e.png"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.8b17aba1.js",
     "static/js/2.efc8b30b.chunk.js",
-    "static/css/main.dfe8660e.chunk.css",
+    "static/css/main.4a278c4a.chunk.css",
     "static/js/main.1f57300e.chunk.js"
   ]
 }
