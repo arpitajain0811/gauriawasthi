@@ -1,0 +1,10 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 2rem;
+}
+.social-media-icon {
+    height: 2rem;
+    margin: 0.5rem 0.75rem;
+}
