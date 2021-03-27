@@ -5,6 +5,7 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import About from '../About';
 import Awards from '../Awards';
+import Publications from '../Publications';
 import Contact from '../Contact';
 import './App.css';
 
@@ -21,9 +22,9 @@ const App = () => (
       <Route exact path="/awards">
         <Awards />
       </Route>
-      {/* <Route exact path="/publications">
+      <Route exact path="/publications">
         <Publications />
-      </Route> */}
+      </Route>
       <Route exact path="/contact">
         <Contact />
       </Route>
