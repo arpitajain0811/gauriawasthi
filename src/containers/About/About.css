@@ -3,10 +3,10 @@
     text-align: left;
     font-size: 1.25rem;
 }
-.lrt {
+.ltr .rtl{
     display: flex;
     padding-bottom: 8rem;
-
+    flex-wrap: wrap;
 }
 .about-img {
     width: 45%;
@@ -21,6 +21,7 @@
 .about-sub-text {
     padding: 1rem 0;
     font-size: 1rem;
+    line-height: 1.5rem;
 }
 .about-content-2 {
     padding: 0 5rem 0 0;
@@ -28,4 +29,20 @@
 .about-text-2 div{
     line-height: 2rem;
     padding: 1rem 0;
+}
+
+@media only screen and (max-width: 860px) {
+    .about-img {
+        width: 100%;
+        padding-top: 1rem;
+    }
+    .about-content {
+        padding: 0;
+    }
+    .about {
+        padding: 3rem 2rem;
+    }
+    .about-content-2 {
+        padding: 0;
+    }
 }

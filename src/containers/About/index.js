@@ -5,7 +5,7 @@ import './About.css';
 
 const About = () => (
   <div className="about">
-    <div className="lrt">
+    <div className="ltr">
       <img className="about-img" src={aboutImg} alt="gauri-awasthi" />
       <div className="about-content">
         <h2>
@@ -32,7 +32,7 @@ const About = () => (
         </div>
       </div>
     </div>
-    <div className="lrt">
+    <div className="rtl">
       <div className="about-content-2">
         <h2>
           Education
