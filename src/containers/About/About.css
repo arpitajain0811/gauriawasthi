@@ -3,10 +3,9 @@
     text-align: left;
     font-size: 1.25rem;
 }
-.ltr .rtl{
+.ltr {
     display: flex;
     padding-bottom: 8rem;
-    flex-wrap: wrap;
 }
 .about-img {
     width: 45%;
@@ -44,5 +43,8 @@
     }
     .about-content-2 {
         padding: 0;
+    }
+    .ltr {
+        flex-wrap: wrap;
     }
 }

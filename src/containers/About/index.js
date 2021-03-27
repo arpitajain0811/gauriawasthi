@@ -32,7 +32,7 @@ const About = () => (
         </div>
       </div>
     </div>
-    <div className="rtl">
+    <div className="ltr">
       <div className="about-content-2">
         <h2>
           Education
