@@ -3,7 +3,7 @@ import './Publications.css';
 
 const Publications = () => (
   <div className="publications">
-    <h2>Publications</h2>
+    <h2>Publications & Work</h2>
     <div className="pub-content">
       “Small Women” in
       {' '}

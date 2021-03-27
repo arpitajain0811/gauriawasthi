@@ -1,0 +1,31 @@
+.about {
+    padding: 5rem 3rem;
+    text-align: left;
+    font-size: 1.25rem;
+}
+.lrt {
+    display: flex;
+    padding-bottom: 8rem;
+
+}
+.about-img {
+    width: 45%;
+}
+.about-content {
+    padding: 0 0 0 5rem;
+}
+
+.about-text {
+    line-height: 2rem;
+}
+.about-sub-text {
+    padding: 1rem 0;
+    font-size: 1rem;
+}
+.about-content-2 {
+    padding: 0 5rem 0 0;
+}
+.about-text-2 div{
+    line-height: 2rem;
+    padding: 1rem 0;
+}

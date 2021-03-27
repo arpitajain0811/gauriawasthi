@@ -2,8 +2,46 @@ import React from 'react';
 import './Awards.css';
 
 const Awards = () => (
-  <div className="awards">
-    Awards
+  <div className="publications">
+    <h2>Awards & Fellowships</h2>
+    <div className="pub-content">
+      Graduate Teaching Assistantship, McNeese State University, 2018 - 2021
+    </div>
+    <div className="pub-content">
+      Honorable mention in Aurora Poetry Summer Contest, 2021
+    </div>
+    <div className="pub-content">
+      Fellowship for Marginalized Writers, Sundress Academy for the Arts, 2021
+    </div>
+    <div className="pub-content">
+      John Wood Award in Poetry, McNeese State University, 2019
+    </div>
+    <div className="pub-content">
+      Award for excellence in Academics, Wilson College, 2017
+    </div>
+    <div className="pub-content">
+      Mrs. Padma Solomonraj Scholarship, Wilson College, 2017
+    </div>
+    <div className="pub-content">
+      Romario Rozer Award for Creative Writing, Wilson College, 2016
+    </div>
+    <div className="pub-content">
+      Young Critics Lab shortlist, Mumbai Film Festival (MAMI), 2016
+    </div>
+    <h2>Nominations</h2>
+    <div className="pub-content">
+      The Best New Poets 2021; University of Virginia Press title, produced in cooperation with
+      <i> Meridian</i>
+      , nominated by Amy Fleury, Director of the McNeese M.F.A program.
+    </div>
+    <div className="pub-content">
+      Intro Journals Awards 2021; Association
+      of Writers and Writing Programs, nominated by McNeese State MFA-Creative Writing.
+    </div>
+    <div className="pub-content">
+      The Global Education and Leadership Forum 2017; nominated by
+      Anuj Poddar, Sr EVP, Viacom18 Media Pvt Ltd.
+    </div>
   </div>
 );
 
