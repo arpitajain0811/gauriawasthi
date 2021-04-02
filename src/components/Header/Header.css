@@ -78,6 +78,7 @@
     display: none;
 }
 
+
 @media only screen and (max-width: 860px) {
     .header-right {
        display: none;
@@ -87,7 +88,6 @@
     }
     .menu-icon {
         display: flex;
-        /* color: white; */
         align-items: center;
         background-color: transparent;
         border: none;
@@ -127,6 +127,9 @@
         color: black;
         width: 100%;
         box-sizing: border-box;
+    }
+    .header-black {
+        padding: 1rem;
     }
     .close-icon {
         background-color: transparent;

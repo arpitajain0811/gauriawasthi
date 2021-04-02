@@ -7,6 +7,7 @@ import {
   faTwitter,
   faInstagram,
 } from '@fortawesome/free-brands-svg-icons';
+import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import './Header.css';
 
 const Header = ({ history }) => {
@@ -107,7 +108,7 @@ const Header = ({ history }) => {
                 Gauri Awasthi
               </div>
               <button type="button" className="close-icon" onClick={() => setIsMenuOpen(false)}>
-                X
+                <FontAwesomeIcon icon={faTimes} size="1x" />
               </button>
             </div>
             <div className="menu-options">
