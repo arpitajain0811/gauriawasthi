@@ -7,15 +7,12 @@ import {
   faTwitter,
   faInstagram,
 } from '@fortawesome/free-brands-svg-icons';
-import insta from '../../assets/insta.png';
-import twitter from '../../assets/twitter.png';
-import facebook from '../../assets/facebook.png';
 import './Header.css';
 
 const Header = ({ history }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <div className="header">
+    <div className={history.location.pathname === '/awards' || history.location.pathname === '/' || history.location.pathname === '/publications' ? 'header-black' : 'header'}>
       <div
         className="name"
         tabIndex={0}
@@ -64,7 +61,7 @@ const Header = ({ history }) => {
             Contact
           </div>
         </div>
-        <div className="social-media">
+        <div className={history.location.pathname === '/awards' || history.location.pathname === '/' || history.location.pathname === '/publications' ? 'social-media' : 'social-media-black'}>
           <a
             className="menu-wrapper"
             href="https://twitter.com/awasthi_gauri"
@@ -85,11 +82,15 @@ const Header = ({ history }) => {
           </a>
         </div>
       </div>
-      <button type="button" className="menu-icon" onClick={() => setIsMenuOpen(true)}>
+      <button
+        type="button"
+        className="menu-icon"
+        onClick={() => setIsMenuOpen(true)}
+      >
         <svg viewBox="0 0 100 80" width="30" height="30">
-          <rect width="100" height="8" fill="white" />
-          <rect y="30" width="100" height="8" fill="white" />
-          <rect y="60" width="100" height="8" fill="white" />
+          <rect width="100" height="8" fill={history.location.pathname === '/awards' || history.location.pathname === '/' || history.location.pathname === '/publications' ? 'white' : 'black'} />
+          <rect y="30" width="100" height="8" fill={history.location.pathname === '/awards' || history.location.pathname === '/' || history.location.pathname === '/publications' ? 'white' : 'black'} />
+          <rect y="60" width="100" height="8" fill={history.location.pathname === '/awards' || history.location.pathname === '/' || history.location.pathname === '/publications' ? 'white' : 'black'} />
         </svg>
       </button>
       {
@@ -148,9 +149,9 @@ const Header = ({ history }) => {
               </div>
             </div>
             <div className="social-media">
-              <a href="https://twitter.com/awasthi_gauri"><img src={twitter} alt="" className="social-media-icon" /></a>
-              <a href="https://www.instagram.com/gauriawasthi/"><img src={insta} alt="" className="social-media-icon" /></a>
-              <a href="https://www.facebook.com/gauriawasthi95/"><img src={facebook} alt="" className="social-media-icon" /></a>
+              <a href="https://twitter.com/awasthi_gauri"><FontAwesomeIcon icon={faTwitter} className="header-icon" size="3x" /></a>
+              <a href="https://www.instagram.com/gauriawasthi/"><FontAwesomeIcon icon={faInstagram} className="header-icon" size="3x" /></a>
+              <a href="https://www.facebook.com/gauriawasthi95/"><FontAwesomeIcon icon={faFacebook} className="header-icon" size="3x" /></a>
             </div>
           </div>
         )

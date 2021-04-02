@@ -1,5 +1,12 @@
+/* eslint-disable jsx-a11y/control-has-associated-label */
 import React from 'react';
 import emailjs from 'emailjs-com';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faFacebook,
+  faTwitter,
+  faInstagram,
+} from '@fortawesome/free-brands-svg-icons';
 import './Contact.css';
 
 const Contact = () => {
@@ -50,15 +57,20 @@ const Contact = () => {
         <br />
         <br />
         She wishes you well during the pandemic.
+        <div className="social-media">
+          <a href="https://twitter.com/awasthi_gauri"><FontAwesomeIcon className="contact-social-media-icon" icon={faTwitter} size="3x" /></a>
+          <a href="https://www.instagram.com/gauriawasthi/"><FontAwesomeIcon icon={faInstagram} className="contact-social-media-icon" size="3x" /></a>
+          <a href="https://www.facebook.com/gauriawasthi95/"><FontAwesomeIcon icon={faFacebook} className="contact-social-media-icon" size="3x" /></a>
+        </div>
       </div>
       <form className="mail-form">
-        <div>Name</div>
+        <div>Name*</div>
         <input type="text" value={name} onChange={(e) => { setName(e.target.value); setError(''); setShowSubmitMessage(false); }} className="mail-input" />
-        <div>Email</div>
+        <div>Email*</div>
         <input type="text" value={email} onChange={(e) => { setEmail(e.target.value); setError(''); setShowSubmitMessage(false); }} className="mail-input" />
-        <div>Subject</div>
+        <div>Subject*</div>
         <input type="text" value={subject} onChange={(e) => { setSubject(e.target.value); setError(''); setShowSubmitMessage(false); }} className="mail-input" />
-        <div>Message</div>
+        <div>Message*</div>
         <textarea value={message} onChange={(e) => { setMessage(e.target.value); setError(''); setShowSubmitMessage(false); }} className="mail-input-area" />
         <div className="error-message">{error}</div>
         {showSubmitMessage ? <div className="submit-message">Thanks for reaching out. Gauri will get in touch with you shortly.</div> : null}

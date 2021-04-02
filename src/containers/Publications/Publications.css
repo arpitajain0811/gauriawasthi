@@ -10,8 +10,16 @@
 .pub-content {
     margin: 0.75rem 0;
 }
-a {
-    color: #a78ab6;
+.publication-link {
+    color: black;
+}
+.publication-banner-image {
+    width: 100%;
+    height: 30rem;
+    background-image: url("../../assets/publications.jpeg");
+    background-size: cover;
+    background-position: top left;
+    margin-top: -74px;
 }
 
 @media only screen and (max-width: 860px) {
