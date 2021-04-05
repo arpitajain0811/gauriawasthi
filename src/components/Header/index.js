@@ -2,18 +2,15 @@
 import React, { useState } from 'react';
 import { withRouter } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faFacebook,
-  faTwitter,
-  faInstagram,
-} from '@fortawesome/free-brands-svg-icons';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import './Header.css';
 
 const Header = ({ history }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <div className={history.location.pathname === '/awards' || history.location.pathname === '/' || history.location.pathname === '/publications' ? 'header-black' : 'header'}>
+    <div className={history.location.pathname === '/about' ? 'header' : 'header-black'}>
       <div
         className="name"
         tabIndex={0}
@@ -50,7 +47,7 @@ const Header = ({ history }) => {
             role="button"
             onKeyPress={() => history.push('/publications')}
           >
-            Publications
+            Work
           </div>
           <div
             className={history.location.pathname === '/contact' ? 'menu-item active' : 'menu-item'}
@@ -62,24 +59,15 @@ const Header = ({ history }) => {
             Contact
           </div>
         </div>
-        <div className={history.location.pathname === '/awards' || history.location.pathname === '/' || history.location.pathname === '/publications' ? 'social-media' : 'social-media-black'}>
-          <a
-            className="menu-wrapper"
-            href="https://twitter.com/awasthi_gauri"
-          >
-            <FontAwesomeIcon icon={faTwitter} className="header-icon" size="2x" />
-          </a>
+        <div className={history.location.pathname === '/about' ? 'social-media-black' : 'social-media'}>
           <a
             className="menu-wrapper"
             href="https://www.instagram.com/gauriawasthi/"
           >
-            <FontAwesomeIcon icon={faInstagram} className="header-icon" size="2x" />
+            <FontAwesomeIcon icon={faInstagram} className="header-icon" />
           </a>
-          <a
-            className="menu-wrapper"
-            href="https://www.facebook.com/gauriawasthi95/"
-          >
-            <FontAwesomeIcon icon={faFacebook} className="header-icon" size="2x" />
+          <a className="menu-wrapper" href="mailto:gauriawasthi2612@gmail.com">
+            <FontAwesomeIcon icon={faEnvelope} className="header-icon" />
           </a>
         </div>
       </div>
@@ -89,9 +77,9 @@ const Header = ({ history }) => {
         onClick={() => setIsMenuOpen(true)}
       >
         <svg viewBox="0 0 100 80" width="30" height="30">
-          <rect width="100" height="8" fill={history.location.pathname === '/awards' || history.location.pathname === '/' || history.location.pathname === '/publications' ? 'white' : 'black'} />
-          <rect y="30" width="100" height="8" fill={history.location.pathname === '/awards' || history.location.pathname === '/' || history.location.pathname === '/publications' ? 'white' : 'black'} />
-          <rect y="60" width="100" height="8" fill={history.location.pathname === '/awards' || history.location.pathname === '/' || history.location.pathname === '/publications' ? 'white' : 'black'} />
+          <rect width="100" height="8" fill={history.location.pathname === '/about' ? 'black' : 'white'} />
+          <rect y="30" width="100" height="8" fill={history.location.pathname === '/about' ? 'black' : 'white'} />
+          <rect y="60" width="100" height="8" fill={history.location.pathname === '/about' ? 'black' : 'white'} />
         </svg>
       </button>
       {
@@ -137,7 +125,7 @@ const Header = ({ history }) => {
                 role="button"
                 onKeyPress={() => { history.push('/publications'); setIsMenuOpen(false); }}
               >
-                Publications
+                Work
               </div>
               <div
                 className="menu-item"
@@ -150,9 +138,10 @@ const Header = ({ history }) => {
               </div>
             </div>
             <div className="social-media">
-              <a href="https://twitter.com/awasthi_gauri"><FontAwesomeIcon icon={faTwitter} className="header-icon" size="3x" /></a>
               <a href="https://www.instagram.com/gauriawasthi/"><FontAwesomeIcon icon={faInstagram} className="header-icon" size="3x" /></a>
-              <a href="https://www.facebook.com/gauriawasthi95/"><FontAwesomeIcon icon={faFacebook} className="header-icon" size="3x" /></a>
+              <a href="mailto:gauriawasthi2612@gmail.com">
+                <FontAwesomeIcon icon={faEnvelope} className="header-icon" />
+              </a>
             </div>
           </div>
         )

@@ -5,7 +5,7 @@ const Publications = () => (
   <>
     <div className="publication-banner-image" />
     <div className="publications">
-      <h2>Publications & Work</h2>
+      <h2>Work</h2>
       <div className="pub-content">
         “Small Women” in
         {' '}

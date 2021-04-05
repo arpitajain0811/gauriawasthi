@@ -5,7 +5,7 @@ const Awards = () => (
   <>
     <div className="awards-banner-image" />
     <div className="publications">
-      <h2>Awards & Fellowships</h2>
+      <h2>Awards</h2>
       <div className="pub-content">
         Graduate Teaching Assistantship, McNeese State University, 2018 - 2021
       </div>

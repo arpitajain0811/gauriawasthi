@@ -2,11 +2,8 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faFacebook,
-  faTwitter,
-  faInstagram,
-} from '@fortawesome/free-brands-svg-icons';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import './Contact.css';
 
 const Contact = () => {
@@ -47,36 +44,38 @@ const Contact = () => {
     }
   };
   return (
-    <div className="contact">
-      <div className="contact-heading">
-        <h2>Contact</h2>
-        Address your message to Gauri Awasthi by using the contact form.
-        <br />
-        <br />
-        She is currently seeking opportunities in editing & poetry.
-        <br />
-        <br />
-        She wishes you well during the pandemic.
-        <div className="social-media">
-          <a href="https://twitter.com/awasthi_gauri"><FontAwesomeIcon className="contact-social-media-icon" icon={faTwitter} size="3x" /></a>
-          <a href="https://www.instagram.com/gauriawasthi/"><FontAwesomeIcon icon={faInstagram} className="contact-social-media-icon" size="3x" /></a>
-          <a href="https://www.facebook.com/gauriawasthi95/"><FontAwesomeIcon icon={faFacebook} className="contact-social-media-icon" size="3x" /></a>
+    <>
+      <div className="contact-banner-image" />
+      <div className="contact">
+        <div className="contact-heading">
+          <h2>Contact</h2>
+          Address your message to Gauri Awasthi by using the contact form.
+          <br />
+          <br />
+          She is currently seeking opportunities in editing & poetry.
+          <br />
+          <br />
+          She wishes you well during the pandemic.
+          <div className="social-media">
+            <a href="https://www.instagram.com/gauriawasthi/"><FontAwesomeIcon icon={faInstagram} className="contact-social-media-icon" size="3x" /></a>
+            <a href="mailto:gauriawasthi2612@gmail.com"><FontAwesomeIcon icon={faEnvelope} className="contact-social-media-icon" size="3x" /></a>
+          </div>
         </div>
+        <form className="mail-form">
+          <div>Name*</div>
+          <input type="text" value={name} onChange={(e) => { setName(e.target.value); setError(''); setShowSubmitMessage(false); }} className="mail-input" />
+          <div>Email*</div>
+          <input type="text" value={email} onChange={(e) => { setEmail(e.target.value); setError(''); setShowSubmitMessage(false); }} className="mail-input" />
+          <div>Subject*</div>
+          <input type="text" value={subject} onChange={(e) => { setSubject(e.target.value); setError(''); setShowSubmitMessage(false); }} className="mail-input" />
+          <div>Message*</div>
+          <textarea value={message} onChange={(e) => { setMessage(e.target.value); setError(''); setShowSubmitMessage(false); }} className="mail-input-area" />
+          <div className="error-message">{error}</div>
+          {showSubmitMessage ? <div className="submit-message">Thanks for reaching out. Gauri will get in touch with you shortly.</div> : null}
+          <button type="button" className="submit-button" onClick={sendEmail}>Send</button>
+        </form>
       </div>
-      <form className="mail-form">
-        <div>Name*</div>
-        <input type="text" value={name} onChange={(e) => { setName(e.target.value); setError(''); setShowSubmitMessage(false); }} className="mail-input" />
-        <div>Email*</div>
-        <input type="text" value={email} onChange={(e) => { setEmail(e.target.value); setError(''); setShowSubmitMessage(false); }} className="mail-input" />
-        <div>Subject*</div>
-        <input type="text" value={subject} onChange={(e) => { setSubject(e.target.value); setError(''); setShowSubmitMessage(false); }} className="mail-input" />
-        <div>Message*</div>
-        <textarea value={message} onChange={(e) => { setMessage(e.target.value); setError(''); setShowSubmitMessage(false); }} className="mail-input-area" />
-        <div className="error-message">{error}</div>
-        {showSubmitMessage ? <div className="submit-message">Thanks for reaching out. Gauri will get in touch with you shortly.</div> : null}
-        <button type="button" className="submit-button" onClick={sendEmail}>Send</button>
-      </form>
-    </div>
+    </>
   );
 };
 

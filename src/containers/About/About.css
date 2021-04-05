@@ -29,6 +29,9 @@
     line-height: 2rem;
     padding: 1rem 0;
 }
+.about-link {
+    color: black;
+}
 
 @media only screen and (max-width: 860px) {
     .about-img {
