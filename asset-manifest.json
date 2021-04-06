@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/gauriawasthi/static/css/main.f7d934b8.chunk.css",
-    "main.js": "/gauriawasthi/static/js/main.13ec081f.chunk.js",
-    "main.js.map": "/gauriawasthi/static/js/main.13ec081f.chunk.js.map",
+    "main.js": "/gauriawasthi/static/js/main.fe59db56.chunk.js",
+    "main.js.map": "/gauriawasthi/static/js/main.fe59db56.chunk.js.map",
     "runtime-main.js": "/gauriawasthi/static/js/runtime-main.8b17aba1.js",
     "runtime-main.js.map": "/gauriawasthi/static/js/runtime-main.8b17aba1.js.map",
-    "static/js/2.dc301232.chunk.js": "/gauriawasthi/static/js/2.dc301232.chunk.js",
-    "static/js/2.dc301232.chunk.js.map": "/gauriawasthi/static/js/2.dc301232.chunk.js.map",
+    "static/js/2.b87ee936.chunk.js": "/gauriawasthi/static/js/2.b87ee936.chunk.js",
+    "static/js/2.b87ee936.chunk.js.map": "/gauriawasthi/static/js/2.b87ee936.chunk.js.map",
     "index.html": "/gauriawasthi/index.html",
     "static/css/main.f7d934b8.chunk.css.map": "/gauriawasthi/static/css/main.f7d934b8.chunk.css.map",
-    "static/js/2.dc301232.chunk.js.LICENSE.txt": "/gauriawasthi/static/js/2.dc301232.chunk.js.LICENSE.txt",
+    "static/js/2.b87ee936.chunk.js.LICENSE.txt": "/gauriawasthi/static/js/2.b87ee936.chunk.js.LICENSE.txt",
     "static/media/about1.29c3643f.jpeg": "/gauriawasthi/static/media/about1.29c3643f.jpeg",
     "static/media/about2.7eef9bb3.jpeg": "/gauriawasthi/static/media/about2.7eef9bb3.jpeg",
     "static/media/Awards.css": "/gauriawasthi/static/media/awards.1f64f552.jpeg",
@@ -19,8 +19,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8b17aba1.js",
-    "static/js/2.dc301232.chunk.js",
+    "static/js/2.b87ee936.chunk.js",
     "static/css/main.f7d934b8.chunk.css",
-    "static/js/main.13ec081f.chunk.js"
+    "static/js/main.fe59db56.chunk.js"
   ]
 }
