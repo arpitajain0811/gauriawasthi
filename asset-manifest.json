@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/gauriawasthi/static/css/main.4a6300e8.chunk.css",
-    "main.js": "/gauriawasthi/static/js/main.db98a46a.chunk.js",
-    "main.js.map": "/gauriawasthi/static/js/main.db98a46a.chunk.js.map",
+    "main.css": "/gauriawasthi/static/css/main.f7d934b8.chunk.css",
+    "main.js": "/gauriawasthi/static/js/main.13ec081f.chunk.js",
+    "main.js.map": "/gauriawasthi/static/js/main.13ec081f.chunk.js.map",
     "runtime-main.js": "/gauriawasthi/static/js/runtime-main.8b17aba1.js",
     "runtime-main.js.map": "/gauriawasthi/static/js/runtime-main.8b17aba1.js.map",
     "static/js/2.dc301232.chunk.js": "/gauriawasthi/static/js/2.dc301232.chunk.js",
     "static/js/2.dc301232.chunk.js.map": "/gauriawasthi/static/js/2.dc301232.chunk.js.map",
     "index.html": "/gauriawasthi/index.html",
-    "static/css/main.4a6300e8.chunk.css.map": "/gauriawasthi/static/css/main.4a6300e8.chunk.css.map",
+    "static/css/main.f7d934b8.chunk.css.map": "/gauriawasthi/static/css/main.f7d934b8.chunk.css.map",
     "static/js/2.dc301232.chunk.js.LICENSE.txt": "/gauriawasthi/static/js/2.dc301232.chunk.js.LICENSE.txt",
-    "static/media/about1.7440b89f.jpg": "/gauriawasthi/static/media/about1.7440b89f.jpg",
-    "static/media/about2.1a06f471.jpg": "/gauriawasthi/static/media/about2.1a06f471.jpg",
-    "static/media/Awards.css": "/gauriawasthi/static/media/awards.fee3130f.jpg",
-    "static/media/Publications.css": "/gauriawasthi/static/media/contact2.1db29794.jpg",
-    "static/media/Home.css": "/gauriawasthi/static/media/home.0652a7de.jpg",
+    "static/media/about1.29c3643f.jpeg": "/gauriawasthi/static/media/about1.29c3643f.jpeg",
+    "static/media/about2.7eef9bb3.jpeg": "/gauriawasthi/static/media/about2.7eef9bb3.jpeg",
+    "static/media/Awards.css": "/gauriawasthi/static/media/awards.1f64f552.jpeg",
+    "static/media/Publications.css": "/gauriawasthi/static/media/contact2.60fd010a.jpeg",
+    "static/media/Home.css": "/gauriawasthi/static/media/home.bfbe7407.jpeg",
     "static/media/Contact.css": "/gauriawasthi/static/media/publications.ed1baaa5.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.8b17aba1.js",
     "static/js/2.dc301232.chunk.js",
-    "static/css/main.4a6300e8.chunk.css",
-    "static/js/main.db98a46a.chunk.js"
+    "static/css/main.f7d934b8.chunk.css",
+    "static/js/main.13ec081f.chunk.js"
   ]
 }
