@@ -52,7 +52,7 @@ const Contact = () => {
           Address your message to Gauri Awasthi by using the contact form.
           <br />
           <br />
-          She is currently seeking opportunities in editing & poetry.
+          She is currently seeking more opportunities in editing & teaching.
           <br />
           <br />
           She wishes you well during the pandemic.
