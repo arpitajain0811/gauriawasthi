@@ -5,15 +5,30 @@ const Awards = () => (
   <>
     <div className="awards-banner-image" />
     <div className="publications">
-      <h2>Awards</h2>
+      <h2>Scholarships and Awards</h2>
       <div className="pub-content">
         Graduate Teaching Assistantship, McNeese State University, 2018 - 2021
+      </div>
+      <div className="pub-content">
+        Scholarship for Bread Loaf Writer’s Workshop with Paisley Rekdal, 2021
+      </div>
+      <div className="pub-content">
+        Scholarship for Documentary Poetics with Kimberly Alidio by Kundiman, 2021
+      </div>
+      <div className="pub-content">
+        Louisiana Division of the Arts Individual Artist Grant, Art and Humanities Council, 2021
       </div>
       <div className="pub-content">
         Honorable mention in Aurora Poetry Summer Contest, 2021
       </div>
       <div className="pub-content">
-        Fellowship for Marginalized Writers, Sundress Academy for the Arts, 2021
+        Joyce Scantlebury Second Prize for Poetry, McNeese State University, 2021
+      </div>
+      <div className="pub-content">
+        Lynne & Richard Reid Scholarship, McNeese State University, 2021
+      </div>
+      <div className="pub-content">
+        Fellowship for Marginalized Writers, Sundress Academy for the Arts(SAFTA), 2021
       </div>
       <div className="pub-content">
         John Wood Award in Poetry, McNeese State University, 2019

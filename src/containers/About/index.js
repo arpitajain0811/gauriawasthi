@@ -1,9 +1,10 @@
 import React from 'react';
+import { withRouter } from 'react-router-dom';
 import aboutImg2 from '../../assets/about2.jpeg';
 import aboutImg1 from '../../assets/about1.jpeg';
 import './About.css';
 
-const About = () => (
+const About = ({ history }) => (
   <div className="about">
     <div className="ltr">
       <img className="about-img" src={aboutImg1} alt="gauri-awasthi" />
@@ -12,62 +13,39 @@ const About = () => (
           Poet. Writer. Editor. Educator. Translator. Filmmaker.
         </h2>
         <div className="about-text">
-          Gauri Awasthi is born and raised on the banks of River Ganges,
-          in an industrial town called Kanpur. She is the Poetry Editor of
-          {' '}
-          <a className="about-link" href="http://mcneesereview.mcneese.edu/">
-            <i> McNeese Review</i>
-          </a>
-          , a poetry reader for
+          Gauri Awasthi was born and raised on the banks of River Ganges,
+          in an industrial town called Kanpur. She is an Editorial Assistant at
           {'   '}
           <a className="about-link" href="https://theoffingmag.com">
             <i>The Offing</i>
           </a>
-          {'  '}
-          and was an honorable
-          mention in
+          . She has also served as a Poetry Editor for
           {' '}
-          {/* <a className="about-link" href="https://theoffingmag.com"> */}
-          <i>The Aurora Journal</i>
-          {/* </a> */}
+          <a className="about-link" href="http://mcneesereview.mcneese.edu/">
+            <i> McNeese Review</i>
+          </a>
           {' '}
-          Summer Poetry Contest. She is currently
-          an M.F.A candidate at
-          <i> McNeese State University </i>
-          in Louisiana, where she has
-          been awarded the John Wood Poetry Prize. Awasthi also currently teaches
-          composition classes with a focus on sustainability at
-          <i> McNeese State University. </i>
-          A formally trained Bharatanatyam dancer, storytelling is her soul force.
-          When not writing or dancing, she runs
+          while she was an M.F.A candidate at McNeese State University. Awasthi has
+          taught composition writing, poetry, and sustainability. A formally trained Bharatanatyam
+          dancer, storytelling is her soul force. When not writing or dancing, she runs
           {' '}
           <a className="about-link" href="https://www.instagram.com/theveganwardrobe/">
             <i>The Vegan Wardrobe</i>
           </a>
           {' '}
-          with her sister where
-          she raises awareness about sustainable fashion as well as animal and human
-          rights in the fashion industry. Her writing has been previously published in
+          with her sister where she raises awareness
+          about decolonising sustainability in fashion. You can read her work
           {' '}
-          <a className="about-link" href="https://thewire.in/">
-            The Wire,
-          </a>
-          {' '}
-          in two anthologies by
-          {' '}
-          <a className="about-link" href="https://penguin.co.in/">
-            <i>Penguin (India),</i>
-          </a>
-          {' '}
-          <a className="about-link" href="https://www.buzzfeed.com/in">
-            <i>Buzzfeed,</i>
-          </a>
-          {' '}
-          <a className="about-link" href="https://www.filmcompanion.in/">
-            <i>Film Companion</i>
-          </a>
-          {' '}
-          and others.
+          <span
+            className="about-link"
+            onClick={() => history.push('/publications')}
+            onKeyPress={() => history.push('/publications')}
+            tabIndex={0}
+            role="button"
+          >
+            <i>here</i>
+          </span>
+          .
         </div>
         {/* <div className="about-sub-text">
           You can find her mildly controversial critiques on colonialism on her
@@ -105,4 +83,4 @@ const About = () => (
   </div>
 );
 
-export default About;
+export default withRouter(About);

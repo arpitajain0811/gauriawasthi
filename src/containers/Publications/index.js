@@ -7,11 +7,18 @@ const Publications = () => (
     <div className="publications">
       <h2>Work</h2>
       <div className="pub-content">
+        “Lotus-Fishing at J.K. Temple” in
+        {' '}
+        <i>Notre Dame Review</i>
+        {' '}
+        (Issue 52) - 2021.
+      </div>
+      <div className="pub-content">
         “Small Women” in
         {' '}
         <i>Aurora Poetry Journal</i>
         {' '}
-        (Print - Summer Issue) - forthcoming 2021.
+        (Print - Summer Issue) - 2021.
       </div>
       <div className="pub-content">
         <a className="publication-link" href="https://livewire.thewire.in/gender-and-sexuality/how-the-indian-school-system-reinforces-gender-norms/">“How The Indian School System Reinforces Gender Norms”</a>
@@ -55,6 +62,15 @@ const Publications = () => (
         2018.
       </div>
       <div className="pub-content">
+        {/* <a className="publication-link" href="https://www.buzzfeed.com/gauriawasthi1/17-beautiful-untranslatable-hindi-words-you-didnt-know-you"> */}
+        “Five Things We Learnt About Psycho’s Shower Scene”
+        {/* </a> */}
+        {' '}
+        in
+        <i> Film Companion </i>
+        2018.
+      </div>
+      <div className="pub-content">
         <a className="publication-link" href="https://www.buzzfeed.com/gauriawasthi1/17-beautiful-untranslatable-hindi-words-you-didnt-know-you">
           “Sixteen Beautiful Untranslatable Hindi Words You Didn’t Know You Needed”
         </a>
@@ -63,7 +79,6 @@ const Publications = () => (
         <i> Buzzfeed </i>
         2018.
       </div>
-
       <div className="pub-content">
         Three micro-fiction tales in the
         {' '}

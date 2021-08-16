@@ -31,6 +31,8 @@
 }
 .about-link {
     color: black;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 860px) {
