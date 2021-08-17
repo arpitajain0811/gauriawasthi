@@ -59,6 +59,31 @@ const Awards = () => (
         The Global Education and Leadership Forum 2017; nominated by
         Anuj Poddar, Sr EVP, Viacom18 Media Pvt Ltd.
       </div>
+      <h2>Conferences, Readings and Memberships</h2>
+      <div className="pub-content">
+        “Politics of Protest” Panel at South Central Modern Language Association, Houston, 2021
+      </div>
+      <div className="pub-content">
+        Tin House Summer Workshop with Diana Khoi Ngyuen, 2021
+      </div>
+      <div className="pub-content">
+        Paper presentation at Global Souths Conference, University of Louisiana, Lafayette, 2021
+      </div>
+      <div className="pub-content">
+        Poetry Panel Presentation at South Central Modern Language Association, Little Rock, 2019
+      </div>
+      <div className="pub-content">
+        Reader, Dr. Grey’s Free Range Reading Series, Stellar Beans, Lake Charles, 2019
+      </div>
+      <div className="pub-content">
+        Member of Association of Writers and Writing Program, 2018-2021
+      </div>
+      <div className="pub-content">
+        Reader, Canvas Kavita #2, The Poetry Club, TARQ Art Gallery, Mumbai, 2016
+      </div>
+      <div className="pub-content">
+        Fundraising Volunteer, The Wishing Factory, Mumbai, 2016-2018
+      </div>
     </div>
   </>
 );
