@@ -31,15 +31,15 @@ const Contact = () => {
       };
 
       emailjs.send('gmail', 'template_x5wd3f8', templateParams, 'user_SjJLJrXam9zwWyFHLbdCA')
-        .then((response) => {
-          console.log('SUCCESS!', response.status, response.text);
+        .then(() => {
+          // console.log('SUCCESS!', response.status, response.text);
           setShowSubmitMessage(true);
           setName('');
           setEmail('');
           setMessage('');
           setSubject('');
-        }, (err) => {
-          console.log('FAILED...', err);
+        }, () => {
+          // console.log('FAILED...', err);
         });
     }
   };
